@@ -50,7 +50,7 @@ class AsteroBot(commands.Bot):
                 await voice_client.disconnect()
                 await ctx.message.add_reaction('✅')
             else:
-                await ctx.send("Currently not in any voice channel. Type " ;join " to summon.")
+                await ctx.send("Currently not in any voice channel. Type ' ;join ' to summon.")
                 await ctx.message.add_reaction("⛔")
                 
 
